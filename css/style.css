@@ -258,7 +258,7 @@ header {
   }
 
   .partnerItem {
-    gap: 0px;
+    gap: 20px;
   }
 
   .partnerItem img {
@@ -301,9 +301,17 @@ header {
 }
 
 @media only screen and (max-width: 1200px) {
+  .navbarTitle h1 {
+    font-size: 20px;
+  }
+  .navbarTitle span {
+    font-size: 18px;
+  }
+
   .navbarMenu {
     display: none;
   }
+
   .navbarButton {
     display: none;
   }
@@ -329,7 +337,7 @@ header {
 
 @media only screen and (max-width: 700px) {
   .homeTitle h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .partnerItem {
@@ -367,9 +375,14 @@ header {
   /* FOOTER  */
 
   .footerTitle {
-    font-size: 60%;
+    font-size: 50%;
   }
+
+  .fontTitle p {
+    font-size: 10px;
+  }
+
   .footerItem i {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
