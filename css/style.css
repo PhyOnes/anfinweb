@@ -296,6 +296,8 @@ header {
   .missionItem img {
     max-width: 500px;
   }
+
+  /* COMTACT */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -355,5 +357,19 @@ header {
 
   .missionItem img {
     width: 300px;
+  }
+
+  /* CONTACT */
+  .contact {
+    display: none;
+  }
+
+  /* FOOTER  */
+
+  .footerTitle {
+    font-size: 60%;
+  }
+  .footerItem i {
+    font-size: 30px;
   }
 }
